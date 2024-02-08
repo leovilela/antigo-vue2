@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1{fill:#0385db}
+        </style>
+    </defs>
+    <g id="noun_1323843_cc" transform="translate(-2.5 -2.5)">
+        <g id="Group_157" data-name="Group 157" transform="translate(2.5 2.5)">
+            <g id="Group_156" data-name="Group 156">
+                <path id="Path_417" d="M90 2.5H15A12.514 12.514 0 0 0 2.5 15v55A12.514 12.514 0 0 0 15 82.5h35v15H30a2.5 2.5 0 1 0 0 5h45a2.5 2.5 0 0 0 0-5H55v-15h35A12.514 12.514 0 0 0 102.5 70V15A12.514 12.514 0 0 0 90 2.5zM97.5 70a7.509 7.509 0 0 1-7.5 7.5H15A7.509 7.509 0 0 1 7.5 70V15A7.509 7.509 0 0 1 15 7.5h75a7.509 7.509 0 0 1 7.5 7.5z" class="cls-1" data-name="Path 417" transform="translate(-2.5 -2.5)"/>
+                <path id="Path_418" d="M53.267 8.731a2.5 2.5 0 0 0-3.535 0L36.5 21.966l-8.23-8.23a2.5 2.5 0 0 0-3.535 0l-17.5 17.5a2.5 2.5 0 0 0 3.535 3.535l15.73-15.73 8.23 8.23a2.5 2.5 0 0 0 3.535 0L51.5 14.036l10.73 10.73a2.5 2.5 0 1 0 3.535-3.535z" class="cls-1" data-name="Path 418" transform="translate(13.503 19.499)"/>
+            </g>
+        </g>
+    </g>
+</svg>

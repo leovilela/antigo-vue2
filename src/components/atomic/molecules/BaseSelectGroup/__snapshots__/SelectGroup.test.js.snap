@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectGroup renders properly 1`] = `
+<div>
+  <!---->
+  <base-select-stub selectgroup="[object Object]"></base-select-stub>
+</div>
+`;

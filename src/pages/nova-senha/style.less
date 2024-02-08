@@ -1,0 +1,56 @@
+.new-password {
+  padding: 15px;
+
+  &, &__form { position: relative; }
+
+  &::before {
+    content: '';
+    width: calc(100% - 30px);
+    background-color: #FFF;
+    height: calc(100vh - 80px);
+    display: block;
+    position: absolute;
+  }
+
+  &__form {
+    width: 100%;
+    max-width: 273px;
+    min-width: 210px;
+    margin: 5% auto 0 auto;
+  }
+
+  &__label, &__button {
+    margin-top: 30px;
+  }
+
+  &__title {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #47525E;
+    line-height: 23px;
+    font-weight: 400;
+
+    &-highlight {
+      font-size: 22px;
+      text-align: right;
+      display: block;
+    }
+  }
+}
+
+.VuePassword {
+  &__Toggle {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 40px;
+    right: 5%;
+
+    &-Icon {
+      color: @color1 !important;
+      width: 2rem !important;
+    }
+  }
+}
+
+.error { color: red;}

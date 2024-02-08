@@ -1,0 +1,166 @@
+/**
+ Paths
+ Variaveis de caminhos. Utilizar padrao existente
+ e caso necessario, adicionar novas variaveis
+ apos linha da variavel @imgPath
+*/
+
+@fontPath: "./fonts";
+@imgPath: "./img";
+/** 
+ Fixed
+ Variaveis apenas para uso do conteudo estatico 
+ de marcacao (Header e Footer).
+ Alterar apenas os valores de acordo com PSD recebido 
+*/
+
+@imgPathFixed: './img_static';
+@tf_color1: #2a1301;
+@tf_color2: #65d4cb;
+@tf_color3: #fca61d;
+@tf_color4: yellow;
+@tf_color6: #353536;
+/** 
+ Colors 
+ Alterar de acordo com o projeto
+*/
+
+@color1: black;
+@color2: white;
+@color3: #535353;
+@color4: #343a40;
+@color5: #1e2431;
+@color6: #81cce0;
+@color7: #ffff00;
+@color8: #242a35;
+@color9: #f2f3f3;
+@color10: #999999;
+@color11: #05b52e;
+@color12: #0385db;
+@color13: #096fd2;
+@color14: #f0f0f0;
+@color15: #ebebf2;
+@color16: #bfbfbf;
+@color17: #051e68;
+@color18: #f5f5f5;
+@color19: #0e3ecc;
+@color20: #cfd2d3;
+@color21: #16233e;
+@color22: rgba(3, 133, 219, 0.1);
+@color23: #e6e8e8;
+@color24: #f13838;
+@color25: #f2f3f8;
+@color26: #ff6600;
+/** 
+ Fonts 
+ Utilizar as fontes abaixo para desenvolvimento.
+ Nao alterar as fontes declaradas, nem nome da variavel,
+ nem valor. Caso seja necessario, adicionar nova
+ variavel apos linha da variavel @mainFontBoldItalic.
+*/
+
+@mainFont: 'newjunebook';
+@mainFontRegular: 'newjuneregular';
+@mainFontBold: 'newjunebold';
+@mainFontLight: 'newjunelight';
+@secondaryFontMedium: 'Gothan-Medium';
+@secondaryFontBold: 'Gotham-Bold';
+@secondaryFontBlack: 'Gotham-Black';
+/** 
+ Sizes 
+ Medidas mais utilizados no projeto.
+*/
+
+@ftSizeTiny: 12px;
+@ftSizeSmall: 14px;
+@ftSizeNormal: 16px;
+@ftSizeLarge: 18px;
+@ftSizeExtraLarge: 22px;
+@ftSizeBig: 26px;
+@ftSize: 16px;
+@ftBigTitSize: 28px;
+@pgSize: 960px;
+@tabletSizePort: 970px;
+@tabletSizeLand: 1024px;
+@mbSizeLand: 627px;
+@mbSizePort: 375px;
+@mbSpace: 5%;
+/**
+ Controle do z-index
+*/
+
+@z-index: 1;
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+// Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xs: 480px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xs-min: @screen-xs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-phone: @screen-xs-min;
+// Small screen / tablet
+//** Deprecated `@screen-sm` as of v3.0.1
+@screen-sm: 768px;
+@screen-sm-min: @screen-sm;
+//** Deprecated `@screen-tablet` as of v3.0.1
+@screen-tablet: @screen-sm-min;
+// Medium screen / desktop
+//** Deprecated `@screen-md` as of v3.0.1
+@screen-md: 992px;
+@screen-md-min: @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop: @screen-md-min;
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg: 1200px;
+@screen-lg-min: @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop: @screen-lg-min;
+// So media queries don't overlap when required, provide a maximum
+@screen-xs-max: (@screen-sm-min - 1);
+@screen-sm-max: (@screen-md-min - 1);
+@screen-md-max: (@screen-lg-min - 1);
+//== Grid system
+//
+//## Define your custom responsive grid.
+//** Number of columns in the grid.
+@grid-columns: 12;
+//** Padding between columns. Gets divided in half for the left and right.
+@grid-gutter-width: 30px;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+@grid-float-breakpoint: @screen-md-min;
+//** Point at which the navbar begins collapsing.
+@grid-float-breakpoint-max: (@grid-float-breakpoint - 1);
+
+// TODO: Refatorar e colocar em um aquivo de mixins separado
+.place-holder(@color) {
+  &::placeholder {
+    font-family: @mainFontLight;
+    color: @color;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: @color;
+    font-family: @mainFontLight;
+  }
+
+  &::-ms-input-placeholder {
+    color: @color;
+    font-family: @mainFontLight;
+  }
+}
+
+.text-default(@border) {
+  padding: 10px; 
+  line-height: 21px;
+  border: solid 1px @border;
+  font-family: @mainFontLight;
+  font-size: @ftSizeSmall;
+  width: 100%;
+  display: block;
+  outline: none;
+}

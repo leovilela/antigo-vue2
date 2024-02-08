@@ -1,0 +1,443 @@
+/**
+ Seta largura e altura do elemento
+ @w 	- 	Largura do elemento
+ @h 	- 	Altura do elemento
+*/
+
+.size(@w, @h) {
+    width: @w;
+    height: @h;
+}
+
+/**
+ Cria um quadrado utilizando mixin .size()
+ @s 	- 	Altura e largura do quadrado
+*/
+
+.square(@s) {
+    .size(@s, @s);
+}
+
+/**
+ Seta o posicionamento de um elemento em um arquivo
+ sprite separado em um grid de 16x16px, multiplicando
+ o valor da coordenada por 16 e tornando o resultado
+ negativo.
+ @x 	- 	Posição x do elemento (linha)
+ @y 	- 	Posição y do elemento (coluna)
+*/
+
+.grid-position(@x, @y) {
+    background-position: -(@x * 16px) -(@y * 16px);
+}
+
+/**
+ Aplica sombra no texto
+ @string 	- 	Valor da sombra. Ex.: .text-shadow(0 1px 3px #000000);
+*/
+
+.text-shadow (@string: 0 1px 3px rgba(0, 0, 0, 0.25)) {
+    text-shadow: @string;
+}
+
+/**
+ Aplica sombra no elemento (tag inline ou block)
+ @string 	- 	Valor da sombra
+*/
+
+.box-shadow (@string) {
+    -webkit-box-shadow: @string;
+    -moz-box-shadow: @string;
+    box-shadow: @string;
+}
+
+/**
+ Aplica sombra preta fora do elemento
+ @x 			- 	Tamanho da sombra no eixo x
+ @y 			- 	Tamanho da sombra no eixo y
+ @blur 		- 	Tamanho do desfoque da sombra
+ @spread 	-
+ @alpha 	- 	Transparencia da sombra
+*/
+
+.drop-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+    -webkit-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    -moz-box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    box-shadow: @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+/**
+ Aplica sombra preta dentro do elemento
+ @x 			- 	Tamanho da sombra no eixo x
+ @y 			- 	Tamanho da sombra no eixo y
+ @blur 		- 	Tamanho do desfoque da sombra
+ @spread 	-
+ @alpha 	- 	Transparencia da sombra
+*/
+
+.inner-shadow (@x: 0, @y: 1px, @blur: 2px, @spread: 0, @alpha: 0.25) {
+    -webkit-box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    -moz-box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+    box-shadow: inset @x @y @blur @spread rgba(0, 0, 0, @alpha);
+}
+
+/**
+ Seta o tipo de renderização do elemento
+ @type 	- 	Tipo de renderização
+*/
+
+.box-sizing (@type: border-box) {
+    -webkit-box-sizing: @type;
+    -moz-box-sizing: @type;
+    box-sizing: @type;
+}
+
+/**
+ Seta borda arredondada no elemento
+ @radius 	- 	Tamanho do raio da borda
+*/
+
+.border-radius (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+/**
+ Seta borda arredondada no elemento passando
+ os valores independente
+ @topright 			- Tamanho da borda no canto superior direito
+ @bottomright 	- Tamanho da borda no canto inferior direito
+ @bottomleft 		- Tamanho da borda no canto inferior esquerda
+ @topleft 			- Tamanho da borda no canto superior esquerdo
+*/
+
+.border-radiuses (@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
+    -webkit-border-top-right-radius: @topright;
+    -webkit-border-bottom-right-radius: @bottomright;
+    -webkit-border-bottom-left-radius: @bottomleft;
+    -webkit-border-top-left-radius: @topleft;
+    -moz-border-radius-topright: @topright;
+    -moz-border-radius-bottomright: @bottomright;
+    -moz-border-radius-bottomleft: @bottomleft;
+    -moz-border-radius-topleft: @topleft;
+    border-top-right-radius: @topright;
+    border-bottom-right-radius: @bottomright;
+    border-bottom-left-radius: @bottomleft;
+    border-top-left-radius: @topleft;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+/**
+ Seta a opacidade do elemento
+ @opacity 	- 	Total de opacidade
+*/
+
+.opacity (@opacity: 0.5) {
+    -webkit-opacity: @opacity;
+    -moz-opacity: @opacity;
+    opacity: @opacity;
+}
+
+/**
+ Seta uma cor gradiente vertical no elemento
+ @startColor 	- 	Cor que inicia o gradiente
+ @endColor 		- 	Cor que finaliza o gradiente
+*/
+
+.gradient (@startColor: #eee, @endColor: white) {
+    background-color: @startColor;
+    background: -webkit-gradient(linear, left top, left bottom, from(@startColor), to(@endColor));
+    background: -webkit-linear-gradient(top, @startColor, @endColor);
+    background: -moz-linear-gradient(top, @startColor, @endColor);
+    background: -ms-linear-gradient(top, @startColor, @endColor);
+    background: -o-linear-gradient(top, @startColor, @endColor);
+}
+
+/**
+ Seta uma cor gradiente horizontal no elemento
+ @startColor 	- 	Cor que inicia o gradiente
+ @endColor 		- 	Cor que finaliza o gradiente
+*/
+
+.horizontal-gradient (@startColor: #eee, @endColor: white) {
+    background-color: @startColor;
+    background-image: -webkit-gradient(linear, left top, right top, from(@startColor), to(@endColor));
+    background-image: -webkit-linear-gradient(left, @startColor, @endColor);
+    background-image: -moz-linear-gradient(left, @startColor, @endColor);
+    background-image: -ms-linear-gradient(left, @startColor, @endColor);
+    background-image: -o-linear-gradient(left, @startColor, @endColor);
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)", argb(@startColor), argb(@endColor)));
+}
+
+/**
+ Seta animacao CSS no elemento
+ @name 			- 	Declaracao do nome da animacao
+ @duration 	- 	Duracao da animacao
+ @delay 		- 	Tempo de espera para iniciar a aimacao
+ @ease 			- 	Tipo de ease da animacao
+*/
+
+.animation (@name, @duration: 300ms, @delay: 0, @ease: ease) {
+    -webkit-animation: @name @duration @delay @ease;
+    -moz-animation: @name @duration @delay @ease;
+    -ms-animation: @name @duration @delay @ease;
+}
+
+/**
+ Seta transicao das propriedades do elemento
+ @transition 	- 	Valor com o elemento, tempo e ease da transicao
+*/
+
+.transition (@transition) {
+    -webkit-transition: @transition;
+    -moz-transition: @transition;
+    -ms-transition: @transition;
+    -o-transition: @transition;
+}
+
+/**
+ Seta a transformacao do elemento
+ @string 	-
+*/
+
+.transform(@string) {
+    -webkit-transform: @string;
+    -moz-transform: @string;
+    -ms-transform: @string;
+    -o-transform: @string;
+}
+
+/**
+ Seta a escala do elemento
+ @factor 	- 	Tamanho da escala
+*/
+
+.scale (@factor) {
+    .transform(scale(@factor));
+}
+
+/**
+ Seta a rotacao do elemento
+ @deg 	- 	Valor em graus da rotacao
+*/
+
+.rotate (@deg) {
+    .transform(rotate(@deg));
+}
+
+.skew (@deg, @deg2) {
+    .transform(skew(@deg, @deg2));
+}
+
+/**
+ Transforma o elemento usando a tecnica translate
+ @x 	- 	Posicionamento do elemento no eixo x
+ @y 	- 	Posicionamento do elemento no eixo y
+*/
+
+.translate (@x, @y: 0) {
+    .transform(translate(@x, @y));
+}
+
+/**
+ Transforma o elemento usando a tecnica translate3d
+ @x 	- 	Posicionamento do elemento no eixo x
+ @y 	- 	Posicionamento do elemento no eixo y
+ @z 	- 	Posicionamento do elemento no eixo z
+*/
+
+.translate3d (@x, @y: 0, @z: 0) {
+    .transform(translate3d(@x, @y, @z));
+}
+
+.perspective (@value: 1000) {
+    -webkit-perspective: @value;
+    -moz-perspective: @value;
+    -ms-perspective: @value;
+    perspective: @value;
+}
+
+.transform-origin (@x: center, @y: center) {
+    -webkit-transform-origin: @x @y;
+    -moz-transform-origin: @x @y;
+    -ms-transform-origin: @x @y;
+    -o-transform-origin: @x @y;
+}
+
+/**
+ Seta um background transparente no elemento
+ @colour 	- 	Cor em hexadecimal
+ @alpha 	- 	Total de opacidade na cor aplicada
+*/
+
+.rgba(@colour, @alpha) {
+    @alphaColour: hsla(hue(@colour), saturation(@colour), lightness(@colour), @alpha);
+    @ieAlphaColour: argb(@alphaColour);
+    background-color: @colour; // Fallback for older browsers
+    background-color: @alphaColour; // IE hacks
+    zoom: 1; // hasLayout
+    background-color: transparent\9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 8+
+    filter :~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{ieAlphaColour}, endColorstr=@{ieAlphaColour})"; // IE 6 & 7
+}
+
+.vertPadding(@t, @b: @t) {
+    padding-top: @t;
+    padding-bottom: @b;
+}
+
+.vertMargin(@t, @b: @t) {
+    margin-top: @t;
+    margin-bottom: @b;
+}
+
+.setTransition(@property, @duration, @function) {
+    -webkit-transition: @property @duration @function;
+    -moz-transition: @property @duration @function;
+    -o-transition: @property @duration @function;
+    -ms-transition: @property @duration @function;
+    transition: @property @duration @function;
+}
+
+.transDefault {
+    .setTransition(all, 300ms, linear);
+}
+
+@media (max-width: @screen-xs-max) {
+    /* during entering and leaving : */
+    .page-enter-active,
+    .page-leave-active {
+        position: absolute;
+        max-width: 725.328px;
+        /*make sur our content keep it's original width*/
+        transition: all .2s ease;
+    }
+    /* entering start */
+    .page-enter {
+        right: -100%;
+    }
+    /* entering end */
+    .page-enter-to {
+        right: 0;
+    }
+    /* leaving start */
+    .page-leave {
+        opacity: 1;
+    }
+    /* leaving end */
+    .page-leave-to {
+        opacity: 0;
+    }
+}
+
+.VuePassword__Input input {
+    height: 52px;
+}
+
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    border: 2px solid @color11;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+
+.checkbox label input[type="checkbox"]+.cr>.cr-icon,
+.radio label input[type="radio"]+.cr>.cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked+.cr>.cr-icon,
+.radio label input[type="radio"]:checked+.cr>.cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled+.cr,
+.radio label input[type="radio"]:disabled+.cr {
+    opacity: .5;
+}
+
+.vb>.vb-dragger {
+    z-index: 5;
+    width: 12px;
+    right: 0;
+}
+
+.vb>.vb-dragger>.vb-dragger-styler {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: rotate3d(0, 0, 0, 0);
+    transform: rotate3d(0, 0, 0, 0);
+    -webkit-transition: background-color 100ms ease-out, margin 100ms ease-out, height 100ms ease-out;
+    transition: background-color 100ms ease-out, margin 100ms ease-out, height 100ms ease-out;
+    background-color: rgba(48, 121, 244, .1);
+    margin: 5px 5px 5px 0;
+    border-radius: 20px;
+    height: calc(100% - 10px);
+    display: block;
+}
+
+.vb.vb-scrolling-phantom>.vb-dragger>.vb-dragger-styler {
+    background-color: rgba(48, 121, 244, .3);
+}
+
+.vb>.vb-dragger:hover>.vb-dragger-styler {
+    background-color: rgba(48, 121, 244, .5);
+    margin: 0px;
+    height: 100%;
+}
+
+.vb.vb-dragging>.vb-dragger>.vb-dragger-styler {
+    background-color: rgba(48, 121, 244, .5);
+    margin: 0px;
+    height: 100%;
+}
+
+.vb.vb-dragging-phantom>.vb-dragger>.vb-dragger-styler {
+    background-color: rgba(48, 121, 244, .5);
+}
+
+button:focus {
+    outline: 0;
+}

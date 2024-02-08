@@ -1,0 +1,37 @@
+.report-ficha-cadastral {
+  margin-top: 30px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 53vh;
+  
+  &__field {
+    margin-top: 30px;
+
+    &:first-child { margin-top: 0; }
+  }
+
+  &__sub-title, &__title {
+    text-align: center;
+    font-size: 14px;
+    margin: 25px 0 10px 0;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    max-width: 150px;
+    box-sizing: border-box;
+    text-transform: none;
+    font-size: 16px;
+
+    &-not {
+      background-color: transparent;
+      color: #000;
+      border: 1px solid #000;
+      margin-right: 128px;
+    }
+  }
+}

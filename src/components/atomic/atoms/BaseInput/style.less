@@ -1,0 +1,30 @@
+// #FIXME Refatora para tirar os estilos globais e importants
+.form-group {
+  input {
+    &.base-input {
+      height: 31.4px;
+      border: 1px solid #c8c8c8 !important;
+      margin: 0;
+      padding: 0 8px !important;
+      box-sizing: border-box;
+
+      .place-holder(@color10);
+      .text-default(#c8c8c8 );
+
+      &:focus { border-color: @color1; }
+
+      &--number {
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+        }
+      }
+
+      &.datePicker {
+        font-family: @mainFontRegular;
+        font-size: @ftSizeNormal;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePickerGroup renders properly 1`] = `
+<div>
+  <!---->
+  <date-picker-stub value="" valuetype="date" lang="pt-br" format="DD/MM/YYYY" type="date" rangeseparator="~" confirmtext="OK" editable="true" clearable="true" shortcuts="true" inputname="date" inputclass="mx-input"></date-picker-stub>
+</div>
+`;

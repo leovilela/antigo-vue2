@@ -1,0 +1,30 @@
+.base-duvida{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+  padding: 5px;
+  margin-top: 10px;
+
+  &__text{
+    color: @color12;
+    font-family: @mainFontRegular;
+    font-weight: bold;
+    font-size: @ftSizeLarge;
+    margin: 0;
+    position: relative;
+    padding: 0 0 0 30px;
+    &::after{
+        content: "";
+        width: 30px;
+        height: 30px;
+        display: block;
+        background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAA1CAMAAAANg/lgAAAAilBMVEUAAAADhdsDhdwFh9oDhdsDhdsAg9sDhdwEhN0DhdsChtsAhuADhdsDhdwDhdsDhdsChNsAhNkAh9ADhdsDhdsDhdwEhdwDhdsChtwFhtsAhtsAh9sDhdsEhdwDhtwChtsDhNsEhNwAidwDhdwDhtsEhNwDhtoDhdwEhdsChdsEhNoDhdwAgNkDhdsThIpYAAAALXRSTlMA+ZAu48opwjzuZxCjXtWrbwsF80u2iOp5MSMe3Nm8flNEGOi/g2FaNtA+nBSBX0IlAAABrklEQVRIx+3VWdOaMBiG4TeyaAQJYQdZxF2/7/n/f69pxWotkBz2oNcMB8zcE8KSQB9kkqUN5zx3ROjSrKsf401QeJOpmwKsLfrtzytYly8biAs5mkYdQ15805t7CtTXkdY7gp3kX/NywEL6tA9Ql2PXy4Dss22w/KZRF/ZRRy2WkiYkDBd6U6DxaNIa8fZ1VjFW0gwB8TrxkdGcfYwVDbbgHs3qkNLgpAae5zE8Zx3AIg2BcJgRbNI5P+eRQGjj6jlgiE4bRwxyuL81adnDHS6w0ccNXPM4gPU79spy8r1sy+qPOIkBthtvfQDH6BWHDoIAt9HWQuwccK4fccehWO7Eq1lhqYZTbneiEGicWBfbN464oho9kaOL1xQJdMRYZBTTGl8ERmbxBv7/+F+Lzyo+wDKLF8jUcRCC62JHpMCKZAuj73n4XZR9/2ulBJMrJcdit9vToJ9ZgwJA4NEbWVWTq9vHIiJTNhLj9ozceGCXz22Fd4cr9WnYjzlSmnbAQ0Ikd0dAyOnWA39s2kffYUAeEhnECmtDSZrYUwq0l6tHGhHHw4YMJDkU5o883B8DYkAPAGGGpAAAAABJRU5ErkJggg==") no-repeat;
+        background-size: 24px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+  }
+}

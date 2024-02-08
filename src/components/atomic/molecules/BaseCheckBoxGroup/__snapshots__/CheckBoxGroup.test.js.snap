@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckBoxGroup renders properly 1`] = `
+<div>
+  <base-checkbox-stub></base-checkbox-stub>
+  <!---->
+</div>
+`;

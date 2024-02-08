@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AutoComplete renders properly 1`] = `
+<form autocomplete="off">
+  <div class="autocomplete" style="width: auto;"><label for=""></label>
+    <base-input-stub type="text" value=""></base-input-stub>
+  </div>
+  <!---->
+</form>
+`;

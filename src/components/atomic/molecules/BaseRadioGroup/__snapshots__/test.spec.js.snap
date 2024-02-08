@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component BaseRadioGroup <base-radio-group /> render correctly 1`] = `
+<div class="base-radio-group">
+  <div class="base-radio" nativevalue="1"></div>
+  <div class="base-radio" nativevalue="2"></div>
+  <div class="base-radio" nativevalue="3"></div>
+</div>
+`;

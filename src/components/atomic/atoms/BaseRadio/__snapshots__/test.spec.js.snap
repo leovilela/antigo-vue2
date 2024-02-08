@@ -1,0 +1,6 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component BaseRadio <base-radio /> render correctly 1`] = `
+<label class="base-radio__label--control base-radio__label--control-radio"><span class="base-radio__absolute-span"></span> <input type="radio" name="" class="base-radio__input" value="false">
+  <div class="base-radio__div--control_indicator"></div></label>
+`;

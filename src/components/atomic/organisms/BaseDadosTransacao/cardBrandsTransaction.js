@@ -1,0 +1,1 @@
+export default [{"id":1,"name":"Visa"},{"id":2,"name":"Mastercard"},{"id":4,"name":"Elo"},{"id":9,"name":"Hipercard"},{"id":10,"name":"BanriCompras"}]

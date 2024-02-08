@@ -1,0 +1,14 @@
+/dist
+/node_modules
+/.nuxt
+/api
+/.vscode
+/static
+/nuxt-build
+/nuxt-generate
+/assets/vendor
+/server
+*.json
+*.md
+*.spec.js
+/src

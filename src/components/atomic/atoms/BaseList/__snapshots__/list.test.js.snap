@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders properly 1`] = `
+<div>
+  <ul>
+    <li>3211827</li>
+    <li>Nome da Loja Ltda</li>
+    <li>José Maria da Silva</li>
+    <li>52.980,00</li>
+    <li>01.08.2019</li>
+    <li>15.08.2019</li>
+    <li>Finalizado</li>
+    <li>Ações</li>
+  </ul>
+  <ul>
+    <li>3211827</li>
+    <li>Nome da Loja Parafuzeta Ltda</li>
+    <li>José Maria da Silva Nostragildo Pereira</li>
+    <li>52.980,00</li>
+    <li>01.08.2019</li>
+    <li>15.08.2019</li>
+    <li>Finalizado</li>
+    <li>Ações</li>
+  </ul>
+</div>
+`;

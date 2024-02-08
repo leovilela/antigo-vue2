@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders properly 1`] = `
+<div>
+  <div role="dialog" class="modal-backdrop"></div>
+  <div class="modal-dialog">
+    <div class="modal">
+      <!---->
+      <!---->
+      <!---->
+    </div>
+  </div>
+</div>
+`;

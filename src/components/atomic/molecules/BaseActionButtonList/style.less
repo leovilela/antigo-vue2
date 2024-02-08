@@ -1,0 +1,62 @@
+.action-button-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+  // padding: 0 12px;
+  box-sizing: border-box;
+  // position: absolute;
+  // left: 50%;
+  // bottom: 3%;
+  // -webkit-transform: translateX(-50%); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+  // -ms-transform: translateX(-50%); /* IE 9 */
+  //     transform: translateX(-50%); /* IE 10, Fx 16+, Op 12.1+ */
+  
+  .icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 4px;
+    min-height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    &:first-of-type{
+      margin-left: 0;
+    }
+    &:last-of-type{
+      margin-right: 0;
+    }
+    &:before {
+      content: "";
+      font-size: 18px;
+    }
+
+    &__email{
+      background: @color2;
+      color: @color1;
+      &:before{
+        content: '\e81e';
+      }
+    }
+    &__print{
+      background: @color2;
+      color: @color1;
+      &:before{
+        content: '\e81c';
+      }
+    }
+    &__financial{
+      background: @color1;
+      color: @color2;
+      &:before {
+        content: '\e81f';
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.simulacao{
+    padding: 4% 1% 1% 1%;
+    .base-progress-bar{
+        margin-bottom: 80px;
+    }
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 15px;
+        .base-dados-transacao{
+            width: 41%;
+            margin-right: 2%;
+        }
+        .base-emprestimo-simulacao{
+            width: 57%;
+        }
+    }
+    &__button-box{
+        float: right;
+        &:after{
+            content:"";
+            clear: both;
+            display: block;
+        }
+    }
+    &__button{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-transform: none;
+        font-size: 13px;
+        margin-bottom: 15px;
+        width: 160px;
+        .icon{
+            width: 24px;
+            height: 24px;
+            background: url("~assets/img/emprestimos-small.png") center center no-repeat;
+            background-size: cover;
+            margin-right: 10px;
+        }
+    }
+}

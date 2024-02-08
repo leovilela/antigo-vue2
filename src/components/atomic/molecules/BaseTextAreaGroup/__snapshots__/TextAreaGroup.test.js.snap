@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaGroup renders properly 1`] = `
+<div>
+  <!---->
+  <base-textarea-stub value="" rows="10" cols="50"></base-textarea-stub>
+</div>
+`;

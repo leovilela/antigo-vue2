@@ -1,0 +1,57 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "extends": ["airbnb-base", "plugin:vue/essential"],
+  "rules": {
+    "comma-dangle": "warn",
+    "implicit-arrow-linebreak": "warn",
+    "arrow-parens": "off",
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "js": "never",
+        "vue": "never"
+      }
+    ],
+    "max-len": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": 0,
+    "linebreak-style": ["off", "windows"],
+    "quotes": ["warn", "double"],
+    "vue/no-use-v-if-with-v-for": 0,
+    "vue/no-unused-components": 0,
+    "no-unused-vars": "off",
+    "no-unneeded-ternary": "off",
+    "eqeqeq": "off",
+    "no-console": "off",
+    "no-alert": "off",
+    "prefer-const": "warn",
+    "no-plusplus": "off",
+    "no-useless-escape": "off",
+    "no-use-before-define": "off",
+    "no-undef": "off",
+    "block-scoped-var": "off",
+    "vars-on-top": "off",
+    "consistent-return": "off",
+    "guard-for-in": "off",
+    "no-restricted-syntax": "off",
+    "no-unused-expressions": "off",
+    "default-case": "off",
+    "prefer-destructuring": "off",
+    "no-shadow": "off",
+    "no-multi-spaces": "warn",
+    "no-restricted-properties": "warn",
+    "no-restricted-globals": "off",
+    "no-bitwise": "off",
+    "no-param-reassign": "off",
+    "import/no-extraneous-dependencies": "off",
+    "array-callback-return": "off"
+  }
+}

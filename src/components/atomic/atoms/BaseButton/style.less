@@ -1,0 +1,50 @@
+@import "~assets/vars.less";
+
+.button {
+  background: black;
+  color: #ffff00;
+  text-transform: uppercase;
+
+  &__simulated {
+    height: 31px;
+    background: #FFF;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 13px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:before {
+      font-family: "listo";
+      font-style: normal;
+      font-size: 18px;
+      content: '\e813';
+      margin-right: .2em;
+    }
+  }
+}
+
+.outlined {
+  &:extend(.button);
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+
+.report-button {
+  &:extend(.button);
+  font-size: @ftSizeSmall;
+  background: @color2;
+  border-color: @color12;
+  margin-bottom: 20px;
+
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}

@@ -1,0 +1,95 @@
+.base-radio {
+  &__label--control {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: inherit;
+    line-height: 25px;;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+  }
+  &__absolute-span {
+    // margin-left: 5px;
+    order: 2;
+  }
+  &__label--is-inline {
+    display: inline-block;
+    // padding: 0;
+    margin: 0;
+    // .base-radio__div--control_indicator {
+    //   top: 0;
+    // }
+    // .base-radio__absolute-span {
+    //   margin-left: 24px;
+    // }
+  }
+  // &__label--absolute-control {
+  //   padding-top: 20px;
+  // }
+  &__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+  }
+  &__div--control_indicator {
+    @dimension: 14px;
+
+    border-radius: 100%;
+    height: @dimension;
+    width: @dimension;
+    background: #FFF;
+    border: 1px solid #000000;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }
+
+  // &__label--control:hover &__input ~ &__div--control_indicator,
+  // &__label--control &__input:focus ~ &__div--control_indicator {
+  //   background: #cccccc;
+  // }
+
+  // &__label--control &__input:checked ~ &__div--control_indicator {
+  //   background: #000;
+  // }
+
+  // &__label--control:hover
+  //   &__input:not([disabled]):checked
+  //   ~ &__div--control_indicator,
+  // &__label--control &__input:checked:focus ~ &__div--control_indicator {
+  //   background: #000;
+  // }
+
+  &__label--control &__input:disabled ~ &__div--control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  &__div--control_indicator:after {
+    box-sizing: unset;
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  &__label--control &__input:checked ~ &__div--control_indicator:after {
+    display: block;
+  }
+  &__label--control-radio &__div--control_indicator:after {
+    @dimension: 7px;
+  
+    height: @dimension;
+    width: @dimension;
+    border-radius: 50%;
+    background: #000;
+  }
+  &__label--control-radio &__input:disabled ~ &__div--control_indicator:after {
+    background: #7b7b7b;
+  }
+}

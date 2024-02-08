@@ -1,0 +1,64 @@
+.car-simulator-form {
+  &__header {
+    background-color: #F6F6F6;
+    line-height: 25.8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 0;
+  }
+
+  &__content, &__box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__content { 
+    justify-content: space-between;
+    padding: 8px 0;
+
+    &-parcel {
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: 0;
+
+      .car-simulator-form__title { margin: 0; }
+    }
+  }
+
+  &__select, &__box {
+    width: 49%;
+  }
+
+  &__group {
+    width: 32%;
+  }
+
+  &__box { flex-direction: column; }
+
+  &__title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    font-family: inherit;
+    margin: 0 0 8px 0;
+
+    &-parcel {
+      width: auto;
+    }
+  }
+
+  &__radio {
+    &-yes {
+      margin-left: 19px;
+      margin-right: 11px;
+    }
+  }
+
+  &__button {
+    max-width: 128px;
+    // margin: 0 0 0 10px;
+    min-height: 20px;
+    text-transform: none;
+    text-align: left;
+  }
+}

@@ -1,0 +1,52 @@
+.base-select {
+  position: relative;
+
+  &__label {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+
+  &__select {
+    border: 1px solid #C8C8C8;
+    height: 31.4px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 16px;
+    padding: 0 8px;
+    margin: 0;
+    cursor: pointer;
+
+    option { color: #000; }
+    &:not(:checked) { color: #C8C8C8; }
+
+    &:disabled {
+      opacity: 0.5;
+      pointer-events: none;
+      background-color: rgba(204, 204, 204, .3);
+    }
+
+    &:hover, &:focus {
+      color: #000000;
+      background: #fdfdfc;
+    }
+
+    &::-ms-expand { display: none; }
+  }
+
+  &__arrow {
+    position: absolute;
+    right: 15px;
+    bottom: 50%;
+    margin-bottom: -15px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color:#7b7b7b;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+}

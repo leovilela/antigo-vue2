@@ -1,0 +1,32 @@
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+nuxt-build
+
+# Nuxt generate
+dist
+nuxt-generate
+
+
+
+#prettier
+.prettierrc.js
+
+.vscode/
+
+#tests
+/coverage
+
+#sonar
+/.scannerwork/
+__mock__/detran_01.json
+__mock__/detran_02.json
+__mock__/detran_03.json
+__mock__/detran_04.json
+__mock__/detran_05.json
+__mock__/detran_06.json
+__mock__/detran_07.json

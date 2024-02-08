@@ -1,0 +1,1042 @@
+{
+  "registerDataPj0": {
+    "registrationFormID": null,
+    "cnpj": "20250105000106",
+    "fullName": "testea aas",
+    "simpleName": "ad das",
+    "addressPostalCode": null,
+    "addressNumber": null,
+    "addressAdditionalData": null,
+    "addressStreetName": null,
+    "addressNeighborhood": null,
+    "cityName": null,
+    "uf": "SP",
+    "referencePoint": null,
+    "phone": null,
+    "foundationDate": null,
+    "numCommercialBoard": null,
+    "shareCapitalValue": 0,
+    "successorSocialName": null,
+    "dateIncial": null,
+    "qtdeBranch": null,
+    "mainProducts": null,
+    "branchActivity": "Despachantes",
+    "numEmployees": 215,
+    "optSimplesNacional": null,
+    "socialObject": null,
+    "dateSignature": null,
+    "fileName": null,
+    "hashUpload": null,
+    "postalBox": null,
+    "isAutomobile": null,
+    "ownerName": null,
+    "ownerDocument": null
+  },
+  "registerDataPj": {
+    "registrationFormID": 3028,
+    "cnpj": "20250105000106",
+    "fullName": "João Gilberto",
+    "simpleName": "teste teste 2",
+    "addressPostalCode": "02408123",
+    "addressNumber": "123",
+    "addressAdditionalData": "2",
+    "addressStreetName": "teste",
+    "addressNeighborhood": "teste",
+    "cityName": "ALAMBARI",
+    "uf": "SP",
+    "referencePoint": null,
+    "phone": "(11) 2945-7845",
+    "foundationDate": "1900-01-01T00:00:00",
+    "numCommercialBoard": null,
+    "shareCapitalValue": 0,
+    "successorSocialName": "",
+    "dateIncial": null,
+    "qtdeBranch": 1,
+    "mainProducts": null,
+    "branchActivity": "Despachantes",
+    "numEmployees": 215,
+    "optSimplesNacional": false,
+    "socialObject": null,
+    "dateSignature": "2020-07-27T13:15:07.03",
+    "fileName": "teste teste 2_20200727 100910_637314521502262946.pdf",
+    "hashUpload": null,
+    "postalBox": null,
+    "isAutomobile": null,
+    "ownerName": null,
+    "ownerDocument": null
+  },
+  "registerDataPf": {
+    "affiliateId": 1020,
+    "registrationFormID": 2979,
+    "maritalStatusID": 2,
+    "maritalStatus": "CASADO(X)",
+    "degreeEducationID": 1,
+    "degreeEducation": "ANALFABETO",
+    "fullName": "Irineu Aparecido de Carvalho",
+    "simpleName": "",
+    "identificationDocumentType": "",
+    "rg": "5578578444",
+    "cpf": "05042291687",
+    "genderID": 2,
+    "gender": "Masculino",
+    "documentState": "SP",
+    "organEmitter": "sspp",
+    "emissionDate": "2020-07-06T03:00:00",
+    "dependents": 0,
+    "nameMother": "TEREZINHA FELIX DE CARVALHO",
+    "nameFather": "",
+    "placeOfBirth": "sao paulo",
+    "birthDate": "2002-07-28T00:00:00",
+    "phoneCel": "(11) 97845-1245",
+    "phone": "(11) 2945-7845",
+    "email": "felipe.souza@soulisto.com.br",
+    "dateSignature": null,
+    "fileName": null,
+    "hashUpload": null
+  },
+  "registerDataPf0": {
+    "affiliateId": 1020,
+    "registrationFormID": null,
+    "maritalStatusID": null,
+    "maritalStatus": null,
+    "degreeEducationID": 1,
+    "degreeEducation": "ANALFABETO",
+    "fullName": "Irineu",
+    "simpleName": "Madeiras Ricar",
+    "identificationDocumentType": null,
+    "rg": null,
+    "cpf": "05042291687",
+    "genderID": null,
+    "gender": "Não Informado",
+    "documentState": null,
+    "organEmitter": null,
+    "emissionDate": null,
+    "dependents": null,
+    "nameMother": null,
+    "nameFather": null,
+    "placeOfBirth": null,
+    "birthDate": "1900-01-01T00:00:00",
+    "phoneCel": null,
+    "phone": null,
+    "email": "felipe.souza@soulisto.com.br",
+    "dateSignature": null,
+    "fileName": null,
+    "hashUpload": null
+  },
+  "spouse": {
+    "documentNumber": "739.373.952-83",
+    "name": "Alan Hallatt",
+    "mothersName": "Carlye Guyer",
+    "birthDate": "12/08/2019"
+  },
+  "personalAddress": {
+    "RegistrationFormId": 3051,
+    "ID": 2932,
+    "HomeTypeID": 2,
+    "HouseTimeID": 2,
+    "AddressPostalCode": "03213-200",
+    "AddressNumber": "5454",
+    "AddressAdditionalData": "",
+    "AddressStreetName": "rua teste",
+    "AddressNeighborhood": "Jardim África",
+    "CityName": "ARRAIAL DO CABO",
+    "Uf": "RJ",
+    "ReferencePoint": null,
+    "Phone": "(11) 3654-5141",
+    "OtherHome": null
+  },
+  "personalAddress0": {
+    "homeTypeID": null,
+    "addressPostalCode": null,
+    "addressNumber": null,
+    "addressAdditionalData": null,
+    "addressStreetName": null,
+    "addressNeighborhood": null,
+    "cityName": null,
+    "uf": null,
+    "referencePoint": null,
+    "houseTimeID": null,
+    "houseTime": null,
+    "phone": null,
+    "otherHome": null
+  },
+  "dataProfessional1": {
+    "id": 2702,
+    "registrationFormId": 3021,
+    "fullName": "nome completo",
+    "numberDocumentCNPJ": "31376808000100",
+    "capitalParticipation": 1,
+    "addressPostalCode": "02222-222",
+    "addressNumber": "76",
+    "addressAdditionalData": null,
+    "addressStreetName": "RUA LUZ",
+    "addressNeighborhood": "Jardim África",
+    "cityName": "Reduza",
+    "uf": "MA",
+    "phone": "(55) 3654-6121",
+    "admissionDate": "2020-07-01T00:00:00",
+    "professionID": 2,
+    "descProfession": "Empregado de instituições financeiras públicas e privadas",
+    "functionID": 4,
+    "descFunction": "Oficiais superiores da polícia militar",
+    "salary": 0.01,
+    "valuesIncome": 0,
+    "incomes": [],
+    "shareholders": [
+      {
+        "id": 16633,
+        "fullName": "Listo Alal",
+        "numberDocumentCNPJ": "31376808000100",
+        "capitalParticipation": 55,
+        "admissionDate": "2020-07-08T00:00:00",
+        "roleParticipationCompanyID": 1
+      }
+    ]
+  },
+  "dataProfessional0": {
+    "id": 2702,
+    "registrationFormId": 3021,
+    "fullName": "nome completo",
+    "numberDocumentCNPJ": "31376808000100",
+    "capitalParticipation": 1,
+    "addressPostalCode": "02222-222",
+    "addressNumber": "76",
+    "addressAdditionalData": null,
+    "addressStreetName": "RUA LUZ",
+    "addressNeighborhood": "Jardim África",
+    "cityName": "Reduza",
+    "uf": "MA",
+    "phone": "(55) 3654-6121",
+    "admissionDate": "2020-07-01T00:00:00",
+    "professionID": 2,
+    "descProfession": "Empregado de instituições financeiras públicas e privadas",
+    "functionID": 4,
+    "descFunction": "Oficiais superiores da polícia militar",
+    "salary": 0.01,
+    "valuesIncome": 0,
+    "incomes": [],
+    "shareholders": {
+      "hasShareholders": true,
+      "registrationFormId": 3021,
+      "shareholdersItens": [
+        {
+          "id": 16633,
+          "fullName": "Listo Alal",
+          "numberDocumentCNPJ": "31376808000100",
+          "capitalParticipation": 55,
+          "admissionDate": "2020-07-08T00:00:00",
+          "roleParticipationCompanyID": 1
+        }
+      ]
+    },
+    "shareholders0": [
+      {
+        "id": 16633,
+        "fullName": "Listo Alal",
+        "numberDocumentCNPJ": "31376808000100",
+        "capitalParticipation": 55,
+        "admissionDate": "2020-07-08T00:00:00",
+        "roleParticipationCompanyID": 1
+      }
+    ]
+  },
+  "dataProfessional": {
+    "id": 2718,
+    "registrationFormId": 3048,
+    "fullName": null,
+    "numberDocumentCNPJ": "",
+    "capitalParticipation": null,
+    "addressPostalCode": "02408-123",
+    "addressNumber": "123",
+    "addressAdditionalData": null,
+    "addressStreetName": "teste",
+    "addressNeighborhood": "teste",
+    "cityName": "",
+    "uf": "AL",
+    "phone": null,
+    "admissionDate": "2020-07-01T00:00:00",
+    "professionID": 4,
+    "descProfession": "Profissional liberal ou autônomo sem vínculo de emprego",
+    "functionID": 1,
+    "descFunction": "Oficiais generais das forças armadas",
+    "salary": 0.01,
+    "valuesIncome": 0,
+    "incomes": [],
+    "shareholders": []
+  },
+  "dataProfessional2": {
+    "id": 0,
+    "registrationFormId": 0,
+    "fullName": null,
+    "numberDocumentCNPJ": null,
+    "capitalParticipation": null,
+    "addressPostalCode": "02408-123",
+    "addressNumber": "123",
+    "addressAdditionalData": null,
+    "addressStreetName": "teste",
+    "addressNeighborhood": "teste",
+    "cityName": "",
+    "uf": "AL",
+    "phone": null,
+    "admissionDate": null,
+    "professionID": null,
+    "descProfession": null,
+    "functionID": null,
+    "descFunction": null,
+    "salary": 0,
+    "valuesIncome": 0,
+    "incomes": [],
+    "shareholders": []
+  },
+  "getOccupations": [
+    {
+      "id": 1,
+      "cod": 1,
+      "description": "Empregado de empresa do setor privado, exceto de instituições financeiras"
+    },
+    {
+      "id": 2,
+      "cod": 2,
+      "description": "Empregado de instituições financeiras públicas e privadas"
+    },
+    {
+      "id": 3,
+      "cod": 3,
+      "description": "Empregado ou contratado de organismo internacional ou de organização não-governamental"
+    },
+    {
+      "id": 4,
+      "cod": 11,
+      "description": "Profissional liberal ou autônomo sem vínculo de emprego"
+    },
+    {
+      "id": 5,
+      "cod": 12,
+      "description": "Proprietário de empresa ou de firma individual ou empregador-titular"
+    },
+    {
+      "id": 6,
+      "cod": 13,
+      "description": "*Capitalista, que auferiu rendimentos de capital, inclusive de aluguéis"
+    },
+    {
+      "id": 7,
+      "cod": 21,
+      "description": "Membro ou servidor público da administração direta federal"
+    },
+    {
+      "id": 8,
+      "cod": 22,
+      "description": "Servidor público de autarquia ou fundação federal"
+    },
+    {
+      "id": 9,
+      "cod": 23,
+      "description": "Empregado de empresa pública ou de economia mista federal, exceto de instituições financeiras"
+    },
+    {
+      "id": 10,
+      "cod": 31,
+      "description": "Membro ou servidor público da administração direta estadual e do Distrito Federal"
+    },
+    {
+      "id": 11,
+      "cod": 32,
+      "description": "Servidor público de autarquia ou fundação estadual e do Distrito Federal"
+    },
+    {
+      "id": 12,
+      "cod": 33,
+      "description": "Empregado de empresa pública ou de economia mista estadual e do Distrito Federal, exceto de instituições financeiras"
+    },
+    {
+      "id": 13,
+      "cod": 41,
+      "description": "Membro ou servidor público da administração direta municipal"
+    },
+    {
+      "id": 14,
+      "cod": 42,
+      "description": "Servidor público de autarquia ou fundação municipal"
+    },
+    {
+      "id": 15,
+      "cod": 43,
+      "description": "Empregado de empresa pública ou de economia mista municipal"
+    },
+    {
+      "id": 16,
+      "cod": 51,
+      "description": "Militar"
+    },
+    {
+      "id": 17,
+      "cod": 61,
+      "description": "Aposentado, militar da reserva ou reformado e pensionista de previdência"
+    },
+    {
+      "id": 18,
+      "cod": 71,
+      "description": "Beneficiário de pensão alimentícia judicial"
+    },
+    {
+      "id": 19,
+      "cod": 72,
+      "description": "Bolsista"
+    },
+    {
+      "id": 20,
+      "cod": 81,
+      "description": "Espólio"
+    }
+  ],
+  "bankReferences": {
+    "bankNumber": 41,
+    "bankName": "APP Pharmaceuticals, LLC",
+    "agenceNumber": 59,
+    "accountDigit": 2,
+    "accountSince": "05/15/2019"
+  },
+  "dataPatrimony": {
+    "immovable": [
+      {
+        "locationImmobile": "‘Arab ar Rashāydah",
+        "valueImmobile": "$3.49",
+        "descriptionImmobile": "lacus at velit vivamus vel nulla eget eros elementum pellentesque"
+      },
+      {
+        "locationImmobile": "Xiping",
+        "valueImmobile": "$8.26",
+        "descriptionImmobile": "at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed"
+      },
+      {
+        "locationImmobile": "Pégeia",
+        "valueImmobile": "$9.93",
+        "descriptionImmobile": "sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel"
+      },
+      {
+        "locationImmobile": "Badu",
+        "valueImmobile": "$1.89",
+        "descriptionImmobile": "a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce"
+      }
+    ],
+    "mobile": [
+      {
+        "brandMobile": "Nissan",
+        "valueMobile": "$4.52",
+        "speciesMobile": "Titan",
+        "yearMobile": 2007
+      }
+    ]
+  },
+  "pep": {
+    "isPEP": true,
+    "registrationFormId": 3021,
+    "peps": [
+      {
+        "id": 470,
+        "name": "Leonardo Vilela",
+        "cpf": "262.243.988-10",
+        "warrantIni": "2020-07-01T03:00:00",
+        "warrantEnd": "2020-07-01T03:00:00",
+        "degreeRelationship": "Tio",
+        "organ": "Prefeitura",
+        "function": "Gari"
+      }
+    ]
+  },
+  "shareholder": {
+    "shareholders": [
+      {
+        "name": "Bernardina Ramsier",
+        "documentNumber": "499.329.669-94",
+        "adminissionDate": "8/22/2019",
+        "capitalPercentage": 96
+      },
+      {
+        "name": "Luke Embery",
+        "documentNumber": "912.137.927-77",
+        "adminissionDate": "4/27/2019",
+        "capitalPercentage": 89
+      },
+      {
+        "name": "Micheal Tardiff",
+        "documentNumber": "699.870.766-58",
+        "adminissionDate": "1/11/2020",
+        "capitalPercentage": 43
+      },
+      {
+        "name": "Ranna Tatlowe",
+        "documentNumber": "563.931.709-26",
+        "adminissionDate": "7/15/2019",
+        "capitalPercentage": 29
+      },
+      {
+        "name": "Marlee Goodall",
+        "documentNumber": "883.905.070-69",
+        "adminissionDate": "2/26/2020",
+        "capitalPercentage": 32
+      }
+    ],
+    "shareholdersAdmin": [
+      {
+        "name": "Gib Tennet",
+        "documentNumber": "030.577.246-42",
+        "adminissionDate": "12/2/2019",
+        "termDate": "10/23/2019",
+        "function": "Geologist III"
+      },
+      {
+        "name": "Chloe Gerding",
+        "documentNumber": "505.905.379-32",
+        "adminissionDate": "2/12/2020",
+        "termDate": "4/13/2019",
+        "function": "Assistant Media Planner"
+      },
+      {
+        "name": "Garrott Fairholm",
+        "documentNumber": "112.903.553-75",
+        "adminissionDate": "6/9/2019",
+        "termDate": "5/14/2019",
+        "function": "Business Systems Development Analyst"
+      }
+    ]
+  },
+  "corporatePartnerShareHolder": {
+    "companyName": "Powlowski Inc",
+    "fieldOfActivity": "Administrative Officer",
+    "documentNumber": "624.166.303-93",
+    "equityParticipation": 9
+  },
+  "revenues": {
+    "year1": 2010,
+    "year2": 1991,
+    "actualShareCapital1": "$5.07",
+    "actualShareCapital2": "$8.20"
+  },
+  "vehicleFinancing": {
+    "typeVehicle": "Leves",
+    "stockVehicles": "01 a 15",
+    "stockVehicles0k": 46,
+    "stockVehiclesUp2002": 57,
+    "stockVehiclesDown2004": 76,
+    "soldVehicleMouth": "2019-05-24T07:33:39Z",
+    "financingVolumeVehicleMouth": "$7.73",
+    "financingTotalValueVehicleMouth": "$5.93"
+  },
+  "registerStatus": {
+    "status": "ACTIVE",
+    "order": 1
+  },
+  "signatureStatus": {
+    "registrationForm": {
+      "hasPendingRegistrationForm": true,
+      "registrationFormId": 3041
+    },
+    "contract": {
+      "hasPendingContract": true,
+      "contractId": 1
+    }
+  },
+  "PointFulfillmentCadastral": {
+    "completed": null,
+    "signed": null,
+    "transaction": null,
+    "signedCcbCet": null,
+    "active": null,
+    "step": null
+  },
+  "PointFulfillmentCadastral1": {
+    "completed": true,
+    "signed": true,
+    "transaction": false,
+    "signedCcbCet": false,
+    "active": true,
+    "step": null
+  },
+  "restriction": {
+    "hasRestriction": false
+  },
+  "basicData": {
+    "id": 59967,
+    "cpf": "14187300686   ",
+    "confirmApp": true,
+    "hasUser": true,
+    "dataValid": true,
+    "name": "IAGO LIMA OLIVEIRA DA SILVA",
+    "cellPhone": "(11) 98154-0549     ",
+    "email": "iagolimasilva2000@gmail.com   ",
+    "financingConstraint": false,
+    "hasFinancing": false
+  },
+  "coefficients": [
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 1,
+        "feeValueTableId": 256,
+        "fee": 5.17999999999999,
+        "coefficient": 1.0518,
+        "coefficientTotal": 1.0518
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 2,
+        "feeValueTableId": 256,
+        "fee": 4.81559218329667,
+        "coefficient": 0.53640000000113,
+        "coefficientTotal": 1.07280000000226
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 3,
+        "feeValueTableId": 256,
+        "fee": 3.86124963312283,
+        "coefficient": 0.3594,
+        "coefficientTotal": 1.0782
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 4,
+        "feeValueTableId": 256,
+        "fee": 3.60034944896869,
+        "coefficient": 0.272899999999999,
+        "coefficientTotal": 1.0915999999999959
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 5,
+        "feeValueTableId": 256,
+        "fee": 3.42322209835199,
+        "coefficient": 0.22099999999999195,
+        "coefficientTotal": 1.1049999999999598
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 6,
+        "feeValueTableId": 256,
+        "fee": 3.24511997436922,
+        "coefficient": 0.186099999999935,
+        "coefficientTotal": 1.1165999999996101
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 7,
+        "feeValueTableId": 256,
+        "fee": 3.16402047017725,
+        "coefficient": 0.16149999999953799,
+        "coefficientTotal": 1.130499999996766
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 8,
+        "feeValueTableId": 256,
+        "fee": 3.0405213281719,
+        "coefficient": 0.142699999998096,
+        "coefficientTotal": 1.1415999999847679
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 9,
+        "feeValueTableId": 256,
+        "fee": 3.01104222560469,
+        "coefficient": 0.1285,
+        "coefficientTotal": 1.1565
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 10,
+        "feeValueTableId": 256,
+        "fee": 2.89446659712581,
+        "coefficient": 0.1166,
+        "coefficientTotal": 1.166
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 11,
+        "feeValueTableId": 256,
+        "fee": 2.8698822580813,
+        "coefficient": 0.10729999999999999,
+        "coefficientTotal": 1.1803
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 12,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 13,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 14,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 15,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 16,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 17,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": null,
+        "rType": 0,
+        "rAliquot": 0.0,
+        "installmentModeId": 18,
+        "feeValueTableId": 256,
+        "fee": 2.85592213215884,
+        "coefficient": 0.099599999999999009,
+        "coefficientTotal": 1.195199999999988
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 1,
+        "rType": 2,
+        "rAliquot": 2.1,
+        "installmentModeId": 1,
+        "feeValueTableId": 256,
+        "fee": 7.28359999999995,
+        "coefficient": 1.072836,
+        "coefficientTotal": 1.072836
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 2,
+        "rType": 2,
+        "rAliquot": 2.2,
+        "installmentModeId": 2,
+        "feeValueTableId": 256,
+        "fee": 6.22117427206502,
+        "coefficient": 0.547128000001153,
+        "coefficientTotal": 1.0942560000023061
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 3,
+        "rType": 2,
+        "rAliquot": 2.3,
+        "installmentModeId": 3,
+        "feeValueTableId": 256,
+        "fee": 4.9097869704842,
+        "coefficient": 0.366587999999999,
+        "coefficientTotal": 1.0997639999999971
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 4,
+        "rType": 2,
+        "rAliquot": 2.4,
+        "installmentModeId": 4,
+        "feeValueTableId": 256,
+        "fee": 4.44085245357131,
+        "coefficient": 0.278357999999991,
+        "coefficientTotal": 1.113431999999964
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 5,
+        "rType": 2,
+        "rAliquot": 2.5,
+        "installmentModeId": 5,
+        "feeValueTableId": 256,
+        "fee": 4.12555543342153,
+        "coefficient": 0.225419999999886,
+        "coefficientTotal": 1.12709999999943
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 6,
+        "rType": 2,
+        "rAliquot": 2.6,
+        "installmentModeId": 6,
+        "feeValueTableId": 256,
+        "fee": 3.8484842348487,
+        "coefficient": 0.189821999999244,
+        "coefficientTotal": 1.1389319999954641
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 7,
+        "rType": 2,
+        "rAliquot": 2.7,
+        "installmentModeId": 7,
+        "feeValueTableId": 256,
+        "fee": 3.69390696756221,
+        "coefficient": 0.164729999995504,
+        "coefficientTotal": 1.1531099999685279
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 8,
+        "rType": 2,
+        "rAliquot": 2.8,
+        "installmentModeId": 8,
+        "feeValueTableId": 256,
+        "fee": 3.51273868178359,
+        "coefficient": 0.145553999998058,
+        "coefficientTotal": 1.1644319999844639
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 9,
+        "rType": 2,
+        "rAliquot": 2.9,
+        "installmentModeId": 9,
+        "feeValueTableId": 256,
+        "fee": 3.43790091079674,
+        "coefficient": 0.13107,
+        "coefficientTotal": 1.17963
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 10,
+        "rType": 2,
+        "rAliquot": 3.0,
+        "installmentModeId": 10,
+        "feeValueTableId": 256,
+        "fee": 3.28335257022216,
+        "coefficient": 0.118932,
+        "coefficientTotal": 1.18932
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 11,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 11,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 12,
+        "rType": 2,
+        "rAliquot": 3.2,
+        "installmentModeId": 12,
+        "feeValueTableId": 256,
+        "fee": 3.1878619771243,
+        "coefficient": 0.101591999999975,
+        "coefficientTotal": 1.2191039999997
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 13,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 13,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 14,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 14,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 15,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 15,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 16,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 16,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 17,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 17,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    },
+    {
+        "automaticAnticipation": true,
+        "anticipationByDay": 0.0005,
+        "transactionTypeId": 4,
+        "r_InstallmentId": 18,
+        "rType": 2,
+        "rAliquot": 3.1,
+        "installmentModeId": 18,
+        "feeValueTableId": 256,
+        "fee": 3.22787396784805,
+        "coefficient": 0.10944599999999599,
+        "coefficientTotal": 1.203905999999956
+    }
+]
+}

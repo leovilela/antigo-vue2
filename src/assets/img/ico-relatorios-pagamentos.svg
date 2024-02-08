@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_770" data-name="Group 770" viewBox="0 0 100 100">
+    <defs>
+        <style>
+            .cls-1{fill:#0385db}
+        </style>
+    </defs>
+    <path id="Path_419" d="M90 2.5H15A12.514 12.514 0 0 0 2.5 15v55A12.514 12.514 0 0 0 15 82.5h35v15H30a2.5 2.5 0 1 0 0 5h45a2.5 2.5 0 0 0 0-5H55v-15h35A12.514 12.514 0 0 0 102.5 70V15A12.514 12.514 0 0 0 90 2.5zM97.5 70a7.509 7.509 0 0 1-7.5 7.5H15A7.509 7.509 0 0 1 7.5 70V15A7.509 7.509 0 0 1 15 7.5h75a7.509 7.509 0 0 1 7.5 7.5z" class="cls-1" data-name="Path 419" transform="translate(-2.5 -2.5)"/>
+    <path id="Path_421" d="M71.706 59.706c-2.774-.893-4.474-1.552-4.474-3.709a4.21 4.21 0 0 1 8.373 0h1.745a5.544 5.544 0 0 0-4.92-5.26v-1.8h-1.744v1.777A5.569 5.569 0 0 0 65.488 56c0 3.385 2.994 4.349 5.636 5.2 2.865.923 4.62 1.606 4.62 3.922a4.21 4.21 0 0 1-8.374 0h-1.745a5.559 5.559 0 0 0 5.06 5.273v1.753h1.745v-1.754a5.557 5.557 0 0 0 5.058-5.273c0-3.55-3.205-4.584-5.782-5.415z" class="cls-1" data-name="Path 421" transform="translate(4.306 -14.238)"/>
+    <rect id="Rectangle_562" width="61" height="4.352" class="cls-1" data-name="Rectangle 562" rx="2.176" transform="translate(19.5 23.09)"/>
+    <rect id="Rectangle_565" width="39.529" height="4.352" class="cls-1" data-name="Rectangle 565" rx="2.176" transform="translate(19.5 37.598)"/>
+    <rect id="Rectangle_567" width="40.529" height="4.352" class="cls-1" data-name="Rectangle 567" rx="2.176" transform="translate(19.5 52.105)"/>
+</svg>

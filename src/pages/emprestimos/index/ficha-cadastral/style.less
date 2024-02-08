@@ -1,0 +1,56 @@
+.ficha-cadastral {
+  margin-top: 25px;
+
+  &__step1 {
+    .ficha-cadastral__buttons { justify-content: flex-end; }
+  }
+
+  &__buttons {
+    padding: 15px 8px;
+    display: flex;
+    position: relative;
+
+    &-line { justify-content: space-between; }
+
+    &-center { justify-content: center; }
+  }
+
+  &__button {
+    margin: 0;
+    text-transform: none;
+
+    &-back, &-not {
+      background-color: transparent;
+      border: 1px solid #000;
+      color: #000;
+    }
+
+    &-next, &-back { max-width: 135px; }
+
+    &-not, &-yes {
+      max-width: 145px;
+      margin: 0 60px;
+    }
+  }
+
+  &__report {
+
+    &-title, &-sub-title {
+      text-align: center;
+      font-size: 14px;
+      line-height: 18px;
+      margin: 20px 0;
+    }
+  }
+}
+.ficha-cadastral-page{
+  &__registration-form{
+    &__title{
+      color: @color1;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: center;
+    }
+  }
+}

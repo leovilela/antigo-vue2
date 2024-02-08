@@ -1,0 +1,175 @@
+@space: 0 5px;
+@height: 60;
+
+.vue-form-generator {
+  .field-radios {
+    .radio-list {
+      label {
+        display: inline-block;
+        margin: @space;
+      }
+    }
+  }
+}
+
+.form-group {
+  margin: 0;
+  min-height: 73px;
+  position: relative;
+
+  &__qtd-estoque {
+    &::after {
+      content: "Quantidade de veículos em estoque:";
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+      margin: 30px 0 10px 0;
+    }
+
+    .radio-list {
+      margin: 10px 0;
+
+      label { margin-right: 20px !important; }
+    }
+  }
+
+  &.form-group__qtd-not-bold {
+    label { font-weight: normal; }
+  }
+
+  &.form-group__vol-veiculos {
+    &::before {
+      content: "Outros dados:";
+      display: block;
+      font-size: 16px;
+      font-weight: bold;
+      display: block;
+      margin: 0 0 10px 0;
+    }
+  }
+
+  &.form-group__margin { margin-top: 33px; }
+
+  &__list {
+    .listbox {
+      display: flex;
+      border: none !important;
+      margin: 10px 0;
+      padding: 0;
+    }
+
+    .list-row { margin-right: 20px; }
+  }
+
+  .form-control {
+    border:solid 1px #c8c8c8;
+    height: 31.4px;
+    border-radius: 0;
+    font-family: 'newjunelight';
+    font-size: 14px;
+    box-shadow: none;
+  }
+
+  &.error {
+    .errors {
+      &, span { margin: 0; }
+    }
+  }
+
+  label {
+    font-family: 'newjuneregular';
+    font-weight: bold;
+    font-size: 13px;
+    margin: @space;
+  }
+
+  .radio-list {
+    label { font-weight: normal; }
+  }
+
+  &__line, &__item {
+    display: flex;
+  }
+
+  &__line {
+    justify-content: space-around;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: unit(@height - 5, vh);
+
+    legend {
+      line-height: 35px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 0 10px;
+      padding: @space;
+      width: 97%;
+    }
+  }
+
+  &__item {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-form {
+    background-color: white;
+    margin-top: 28px;
+  
+    &__fieldset {
+      height: unit(@height, vh);
+    }
+  }
+
+  &__text {
+    padding: @space;
+    line-height: 15px;
+    font-size: 11px;
+  }
+
+  // FIXME: Ajuste posicionamento date-picker
+  .mx-datepicker {
+    position: static !important;
+
+    &-popup {
+      top: 50px !important;
+      left: 8px !important;
+    }
+  }
+}
+
+.base-form-custom-group {
+  width: 100%;
+
+  &__actions {
+    padding: @space;
+
+    &__button {
+      margin: @space;
+      width: fit-content;
+      height: 30px;
+    }
+  }
+}
+
+.base-pep-form, .data-professional-form {
+  &__line { flex-direction: column; }
+}
+
+.data-professional-form {
+  &__line { justify-content: flex-start; }
+}
+
+.revenues-form {
+  &__title {
+    background-color: #999;
+    color: #FFF;
+    text-align: center;
+    padding: 0;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 22px 0;
+  }
+}

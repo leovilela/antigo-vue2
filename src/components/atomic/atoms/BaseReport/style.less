@@ -1,0 +1,22 @@
+.base-report {
+  margin: 0;
+  display: flex;
+  line-height: 25px;
+  font-size: 14px;
+
+  &__content {  }
+
+  &__title {
+    padding-right: 15px;
+
+    &--text-hiden { 
+      display: none;
+
+      & + .base-report__content {
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+}

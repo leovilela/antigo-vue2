@@ -1,0 +1,233 @@
+{
+  "registerDataPj": {
+    "documentNumber": "280.078.840-00",
+    "companyName ": "Heidenreich LLC",
+    "tradingName": "Oloo",
+    "fieldOfActivity": "Staff Scientist",
+    "dateOfFoundation": "04/24/2010",
+    "actualShareCapital": "251.98",
+    "numberOfEmployees": 41,
+    "subsidiaries": 92,
+    "nationalSimple": "no",
+    "postalAddressCode": "52393-883",
+    "address": "74 Riverside Crossing",
+    "number": 81,
+    "complement": null,
+    "neighborhood": "adapter",
+    "city": "Rochester",
+    "uf": "New York"
+  },
+  "registerDataPf": {
+    "affiliateId": 1020,
+    "registrationFormID": 2948,
+    "maritalStatusID": 2,
+    "maritalStatus": "CASADO(X)",
+    "degreeEducationID": 1,
+    "degreeEducation": "ANALFABETO",
+    "fullName": "NOME",
+    "simpleName": "",
+    "identificationDocumentType": "",
+    "rg": "557879848",
+    "cpf": "05042291687",
+    "genderID": null,
+    "gender": "Masculino",
+    "documentState": "MG",
+    "organEmitter": "ssp",
+    "emissionDate": "2020-07-06T12:00:00",
+    "dependents": 0,
+    "nameMother": null,
+    "nameFather": "",
+    "placeOfBirth": "sao paulo",
+    "birthDate": "1930-02-08T01:01:01",
+    "phoneCel": "",
+    "phone": null,
+    "email": "eu@eu.com",
+    "dateSignature": null,
+    "fileName": null,
+    "hashUpload": null
+  },
+  "spouse": {
+    "documentNumber": "739.373.952-83",
+    "name": "Alan Hallatt",
+    "mothersName": "Carlye Guyer",
+    "birthDate": "12/08/2019"
+  },
+  "personalAddress": {
+    "postalAddressCode": "52393-883",
+    "address": "74 Riverside Crossing",
+    "number": 81,
+    "complement": null,
+    "neighborhood": "adapter",
+    "city": "Rochester",
+    "uf": "New York"
+  },
+  "dataProfessional": {
+    "postalAddressCode": "52393-883",
+    "address": "74 Riverside Crossing",
+    "number": 81,
+    "complement": null,
+    "neighborhood": "adapter",
+    "city": "Rochester",
+    "uf": "New York",
+    "admissionDate": "2/2/2020",
+    "profession": "Computer Systems Analyst I",
+    "dddPhone": "(948) 9996516",
+    "office": "Payment Adjustment Coordinator",
+    "monthlySalary": "8650.82",
+    "ownerPartner": "yesm no"
+  },
+  "bankReferences": {
+    "bankNumber": 41,
+    "bankName": "APP Pharmaceuticals, LLC",
+    "agenceNumber": 59,
+    "accountDigit": 2,
+    "accountSince": "05/15/2019"
+  },
+  "dataPatrimony": {
+    "immovable": [
+      {
+        "locationImmobile": "‘Arab ar Rashāydah",
+        "valueImmobile": "$3.49",
+        "descriptionImmobile": "lacus at velit vivamus vel nulla eget eros elementum pellentesque"
+      },
+      {
+        "locationImmobile": "Xiping",
+        "valueImmobile": "$8.26",
+        "descriptionImmobile": "at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed"
+      },
+      {
+        "locationImmobile": "Pégeia",
+        "valueImmobile": "$9.93",
+        "descriptionImmobile": "sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel"
+      },
+      {
+        "locationImmobile": "Badu",
+        "valueImmobile": "$1.89",
+        "descriptionImmobile": "a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce"
+      }
+    ],
+    "mobile": [
+      {
+        "brandMobile": "Nissan",
+        "valueMobile": "$4.52",
+        "speciesMobile": "Titan",
+        "yearMobile": 2007
+      }
+    ]
+  },
+  "pep": {
+    "isPep": true,
+    "pepForm": [
+      {
+        "documentNumber": "076.616.330-73",
+        "name": "Hube Sannes",
+        "beginingMandate": "05/29/2016",
+        "endMandate": "01/06/150742",
+        "relationship": "Filho",
+        "part": "Tribunal de Justiça",
+        "office": "leandro"
+      },
+      {
+        "documentNumber": "845.858.959-79",
+        "name": "Karon Allanson",
+        "beginingMandate": "05/30/2016",
+        "endMandate": "05/18/39917",
+        "relationship": "Tio",
+        "part": "La em casa",
+        "office": "kiko"
+      },
+      {
+        "documentNumber": "394.478.727-53",
+        "name": "Wyatt Bucktrout",
+        "beginingMandate": "01/15/2017",
+        "endMandate": "11/12/192060",
+        "relationship": "Filha",
+        "part": "Tribunal de Justiça",
+        "office": "kiko"
+      }
+    ]
+  },
+  "shareholder": {
+    "shareholders": [
+      {
+        "name": "Bernardina Ramsier",
+        "documentNumber": "499.329.669-94",
+        "adminissionDate": "8/22/2019",
+        "capitalPercentage": 96
+      },
+      {
+        "name": "Luke Embery",
+        "documentNumber": "912.137.927-77",
+        "adminissionDate": "4/27/2019",
+        "capitalPercentage": 89
+      },
+      {
+        "name": "Micheal Tardiff",
+        "documentNumber": "699.870.766-58",
+        "adminissionDate": "1/11/2020",
+        "capitalPercentage": 43
+      },
+      {
+        "name": "Ranna Tatlowe",
+        "documentNumber": "563.931.709-26",
+        "adminissionDate": "7/15/2019",
+        "capitalPercentage": 29
+      },
+      {
+        "name": "Marlee Goodall",
+        "documentNumber": "883.905.070-69",
+        "adminissionDate": "2/26/2020",
+        "capitalPercentage": 32
+      }
+    ],
+    "shareholdersAdmin": [
+      {
+        "name": "Gib Tennet",
+        "documentNumber": "030.577.246-42",
+        "adminissionDate": "12/2/2019",
+        "termDate": "10/23/2019",
+        "function": "Geologist III"
+      },
+      {
+        "name": "Chloe Gerding",
+        "documentNumber": "505.905.379-32",
+        "adminissionDate": "2/12/2020",
+        "termDate": "4/13/2019",
+        "function": "Assistant Media Planner"
+      },
+      {
+        "name": "Garrott Fairholm",
+        "documentNumber": "112.903.553-75",
+        "adminissionDate": "6/9/2019",
+        "termDate": "5/14/2019",
+        "function": "Business Systems Development Analyst"
+      }
+    ]
+  },
+  "corporatePartnerShareHolder": {
+    "companyName": "Powlowski Inc",
+    "fieldOfActivity": "Administrative Officer",
+    "documentNumber": "624.166.303-93",
+    "equityParticipation": 9
+  },
+  "revenues": {
+    "year1": 2010,
+    "year2": 1991,
+    "actualShareCapital1": "$5.07",
+    "actualShareCapital2": "$8.20"
+  },
+  "vehicleFinancing": {
+    "typeVehicle": "Leves",
+    "stockVehicles": "01 a 15",
+    "stockVehicles0k": 46,
+    "stockVehiclesUp2002": 57,
+    "stockVehiclesDown2004": 76,
+    "soldVehicleMouth": "2019-05-24T07:33:39Z",
+    "financingVolumeVehicleMouth": "$7.73",
+    "financingTotalValueVehicleMouth": "$5.93"
+  },
+  "registerStatus": {
+    "status": "ACTIVE",
+    "order": 1
+  }
+}

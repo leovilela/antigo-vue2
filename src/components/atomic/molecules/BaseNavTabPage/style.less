@@ -1,0 +1,47 @@
+ .base-nav-tab-page{
+  &__navigation{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  &__navigation-item{
+    list-style: none;
+    text-align: center;
+    width: 33%;
+
+    > a,
+    a:active,
+    a:link {
+      text-decoration: none;
+      font-size: @ftSizeLarge;
+      color: @color10;
+      text-align: center;
+      padding: 0;
+    }
+
+    a:hover{
+      color: @color1;
+      border-bottom: solid 2px @color1;
+    }
+
+    > a.nuxt-link-exact-active{
+      color: @color1;
+      border-bottom: solid 2px @color1;
+    }
+
+    .disabled {
+      cursor: not-allowed;
+      text-decoration: none;
+      font-size: 18px;
+      color: #e1e1e1;
+      text-align: center;
+      padding: 0 10px;
+      margin: 0;
+      word-break: break-word;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component BaseProgress <base-progress /> mount the component 1`] = `
+<div class="base-progress-bar">
+  <!----> <span class="base-progress-bar__progress" style="width: 0%;"></span>
+  <!---->
+  <!---->
+</div>
+`;

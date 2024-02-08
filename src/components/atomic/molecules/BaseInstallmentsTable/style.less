@@ -1,0 +1,32 @@
+.base-installment-table {
+  margin: 0;
+
+  tr {
+    &:hover{
+      background: yellow;
+    }
+  }
+
+  &__title {
+    text-align: right;
+    &:last-of-type {
+      padding-right: 16px;
+    }
+  }
+  &__item {
+    text-align: right;
+    height: 23px;
+    padding: 0;
+    vertical-align: middle;
+
+    &:last-of-type {
+      padding-right: 16px;
+    }
+  }
+  &__installment-mode {
+    text-align: left;
+    height: 23px;
+    padding: 0;
+    padding-left: 16px;
+  }
+}

@@ -1,0 +1,36 @@
+.base-user-support{
+  &__button{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+    font-size: 13px;
+    .ico{
+      display: block;
+      width: 18px;
+      height: 18px;
+      background-size: contain;
+    }
+  }
+  &__talk-to-listo{
+    color: @color2;
+    background: @color1;
+    .ico {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+  }
+  &__remote-support{
+    color: @color1;
+    background: @color2;
+    margin-top: 18px;
+
+    .ico {
+      margin-right: 10px;
+      background: url("~assets/img/ico-teamviewer.png") center center no-repeat;
+      background-size: cover;
+    }
+  }
+}
